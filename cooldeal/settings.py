@@ -29,7 +29,7 @@ else:
     DEBUG = True
 
 
-ALLOWED_HOSTS = ['127.0.0.1', '51.38.37.84', 'cooldeal-ci.com', 'www.cooldeal-ci.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '51.38.37.84', 'cooldeal-ci.com', 'www.cooldeal-ci.com']
 
 # --- Windows fix for packages importing `resource` (POSIX-only) ---
 import sys, types
